@@ -9,7 +9,6 @@ function App() {
     <div>
       <h1>{title}</h1>
       <input type="text" />
-      <button onClick={() => analyzeimage()}>Analizar</button>
       <button>Generar</button>
 
       
