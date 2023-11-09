@@ -1,4 +1,4 @@
-function analyzeimage(){
+
 fetch('https://compubot.cognitiveservices.azure.com/computervision/imageanalysis:analyze?api-version=2023-02-01-preview&features=tags,read,caption,denseCaptions,smartCrops,objects,people', {
     method: 'POST',
     headers: {
@@ -9,4 +9,4 @@ fetch('https://compubot.cognitiveservices.azure.com/computervision/imageanalysis
 })
 .then(response => response.json())
 .then(data => console.log(data));
-}
+
