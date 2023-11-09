@@ -9,7 +9,7 @@ function App() {
     <div>
       <h1>{title}</h1>
       <input type="text" />
-      <button onClick={() => analyzeimage('https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png')}>Analizar</button>
+      //<button onClick={() => analyzeimage('https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png')}>Analizar</button>
       <button>Generar</button>
 
       
