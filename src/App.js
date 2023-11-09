@@ -1,5 +1,5 @@
 import React from 'react';
-import analyzeimage from './analyzeimage';
+//import analyzeimage from './analyzeimage';
 
 function App() {
   const title = 'checar';
